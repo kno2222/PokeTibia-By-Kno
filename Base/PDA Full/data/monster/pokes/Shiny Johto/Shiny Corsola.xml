@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Corsola" nameDescription="a shiny corsola" race="water" experience="500" speed="189" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1707" head="12" body="18" legs="95" feet="113" corpse="13149"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+  <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-52" max="-88"/>
+	<attack name="Headbutt" interval="2852" chance="29" range="1"/>
+	<attack name="Bubbles" interval="3087" chance="28" range="3"/>
+	<attack name="Water Gun" interval="3040" chance="28" range="6"/>
+	<attack name="Waterball" interval="2758" chance="30" range="4"/>
+	<attack name="Rock Throw" interval="2758" chance="30" range="3"/>
+	<attack name="Rock Slide" interval="3134" chance="27" range="4"/>
+ </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="COOOR!"/>
+<voice sentence="SOLAA!"/>
+<voice sentence="CORSOLA!"/>
+  </voices>
+  <loot>
+        <item id="12161" chance="20000" countmax="30"/>  --Water Gem
+        <item id="12170" chance="5000" count="1" countmax="1"/>  --Water Pendant
+        <item id="12337" chance="10000" countmax="20"/>  --Small Stone
+        <item id="12196" chance="1000" count="1" countmax="1"/>  --Stone Orb
+        <item id="12618" chance="6000" count="1" countmax="1"/>  --Boost Stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

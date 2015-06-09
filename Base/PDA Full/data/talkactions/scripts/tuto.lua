@@ -1,0 +1,4 @@
+function onSay(cid, words, param)
+doPlayerPopupFYI(cid, 'Tutorias [PMO]\n•Como Upar?\nPescando e Depois Hunts (Tps)\n•Como Conseguir Dinheiro?\nVendendo Pokes e Loots\n•Como Free Vira Vip?\nUpar ate lvl 200\n•O que é Apricorns?\nAumenta Status de Seu Pokemon\n•Onde Tem Quests?\nTeleport Quests\n•Onde Tem Torneio?\nNo Teleport PVP\n•Onde Tem PVP-Team?\nNo Teleporte PVP\n•Aonde que Concluo as Task?\nNPC Lado Esquerdo do Templo chamado Mega Task.\n•Aonde encontro Npcs?\nTodos os Npcs se encontram no Templo\n•Que level compra House?\nLevel 150\n•As Task Poderam Ser Repetidas?\nPode Repetir Quantas Veses que Quiser!\n•Como Viro Vip?\nVoce Pode Virar Vip Upando ate lvl 200 / ou Donatando no Site : Offline\n•Como Consigo Boost Stones?\nMatando Pokemons Shinys e Depois so usar em Seu Pokemon!\n•Capturei um Pokemon so que foi para o CP e nao consigo Pegar, Como Faço Para Pegar?\nE so Dar Use na Ball Desligada que Desbloqueia!')
+return true
+end

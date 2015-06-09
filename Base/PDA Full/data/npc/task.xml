@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mega Task" script="task.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="510" head="91" body="114" legs="114" feet="114"/>
+<parameters>
+<parameter key="message_greet" value="Ola |PLAYERNAME|! Todas As Task Podem Ser Feitas Repetidamentes.Eu posso recompensa-lo por terminar tasks, basta dizer o nome de alguma! Para saber o nome das tasks e seu progresso em cada uma, diga !task."/>
+</parameters>
+</npc>

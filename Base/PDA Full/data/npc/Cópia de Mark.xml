@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="510" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Ola caro cliente! Voce Quer Ver Minhas Ofertas? E Simples Digita {trade}!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="How Rude!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="Full Restore,12343,300000;Revive,12344,1000000;Hyper Potion,12345,200000;Ultra Potion,12346,150000;Small Potion,12347,25000;Great Potion,12348,50000;Boost Stone,12618,10000000;Vitamina Attack,8299,500000;Vitamina Vitality,8298,600000;Vitamina Agility,8303,700000;Vitamina Offense,8301,650000;Vitamina Defense,8302,750000;Rare Candy,6569,1000000;Kit Inicial,1990,1000000;Box Present,2331,5000000"/>
+</parameters>
+</npc>

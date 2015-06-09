@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magmortar" nameDescription="a magmortar" race="fire" experience="1072" speed="117" manacost="0">
+    <health now="160" max="160"/>
+    <look type="1720" head="55" body="80" legs="95" feet="113" corpse="13162"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        <flag hungerdelay="18"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Scratch" interval="2852" chance="29" range="1"/>
+        <attack name="Fire Punch" interval="2946" chance="28" range="1"/>
+        <attack name="Ember" interval="2758" chance="30" range="3"/>
+        <attack name="Flamethrower" interval="3040" chance="28" range="6"/>
+        <attack name="Fireball" interval="2993" chance="28" range="4"/>
+        <attack name="Fire Blast" interval="4027" chance="22" range="6"/>
+        <attack name="Magma Storm" interval="4121" chance="21" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0">
+	</defenses>
+    <voices interval="5000" chance="10">
+        <voice sentence="MAGMORTAR!"/>
+    </voices>
+    <loot>
+        <item id="12162" chance="15000" countmax="70"/>  --Essence Of Fire
+        <item id="12152" chance="7000" count="1" countmax="1"/>  --Pot Of Lava
+        <item id="12229" chance="1000" count="1" countmax="1"/>  --Flame Orb
+        <item id="12286" chance="1000" count="1" countmax="1"/>  --Fire Pendant
+        <item id="12271" chance="3000" count="1" countmax="1"/>  --Magma Box
+        <item id="12287" chance="500" count="1" countmax="1"/>  --Magma Stone
+        <item id="11448" chance="80" count="1" countmax="1"/>  --Magmarizer
+        <item id="1459" chance="5" count="1" countmax="1"/>  --TM08 - Lava Plume
+        <item id="12408" chance="5" count="1" countmax="1"/>  --TM35 - Flamethrower
+        <item id="12411" chance="5" count="1" countmax="1"/>  --TM38 - Fire Blast
+        <item id="12432" chance="5" count="1" countmax="1"/>  --TM50 - Overheat
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

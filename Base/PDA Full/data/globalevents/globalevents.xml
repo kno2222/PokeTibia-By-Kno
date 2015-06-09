@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<globalevents>
+
+<globalevent name="raidsii"  time="21:00" event="script" value="Invasao.lua"/>
+<globalevent name="raids"  time="09:00" event="script" value="Invasao.lua"/>
+<globalevent name="playersrecord" type="record" event="script" value="record.lua"/>
+<globalevent name="Msgg" interval="240" event="script" value="mensagens.lua"/>
+<globalevent name="Fraze200" interval="1" event="script" value="texto12.lua"/>
+    <globalevent name="Frazes" interval="1" event="script" value="texto.lua"/>
+     <globalevent name="Fraze1" interval="1" event="script" value="text2.lua"/>
+      <globalevent name="Fraze2" interval="1" event="script" value="text3.lua"/>
+        
+        <globalevent name="TournamentStart" time="18:10" event="script" value="tournament.lua"/>
+         <globalevent name="TournamentStarzt" time="18:00" event="script" value="TDM.lua"/>
+       
+        <globalevent name="Fraze4" interval="1" event="script" value="text5.lua"/>
+        <globalevent name="Fraze5" interval="1" event="script" value="text6.lua"/>
+
+        <globalevent name="evento1" interval="1" event="script" value="afk.lua"/>
+<globalevent name="evento2" interval="1" event="script" value="Arena.lua"/>
+
+        <globalevent name="Fraze17" interval="1" event="script" value="texto7.lua"/>
+        <globalevent name="Fraze17s" interval="1" event="script" value="texto8.lua"/>
+        <globalevent name="Fraze17ss" interval="1" event="script" value="texto9.lua"/>
+        <globalevent name="Fraze17ssz" interval="1" event="script" value="texto10.lua"/>
+        <globalevent name="Fraze17ssa" interval="1" event="script" value="texto11.lua"/> 
+        <globalevent name="Fraze17sssa" interval="1" event="script" value="texto13.lua"/> 
+        <globalevent name="Fraze17sssxa" interval="1" event="script" value="texto14.lua"/> 
+        <globalevent name="Fraze17sllssaasxa" interval="1" event="script" value="text15.lua"/>
+ 
+        <globalevent name="Fraze17sllssaapsxa" interval="1" event="script" value="txt15.lua"/>
+
+        <globalevent name="Fraze117ssdrsaasxa" interval="1" event="script" value="text16.lua"/>
+        <globalevent name="Fraze147sssaasxsasaa" interval="1" event="script" value="text17.lua"/>
+        
+      <globalevent name="Fraze7" interval="1" event="script" value="v1.lua"/> 
+      <globalevent name="Fraze8" interval="1" event="script" value="v2.lua"/> 
+      <globalevent name="Fraze9" interval="1" event="script" value="f1.lua"/>
+       <globalevent name="Fraze10" interval="1" event="script" value="w.lua"/>
+       <globalevent name="Fraze11" interval="1" event="script" value="l.lua"/>
+       
+    <globalevent name="Efeitos" interval="1" event="script" value="efeito.lua"/>
+	<globalevent name="save" interval="7200" event="script" value="save.lua"/>
+
+
+	<globalevent name="serverstart" type="start" event="script" value="start.lua"/>
+
+
+
+	<!-- <globalevent name="timer_example" time="21:35" event="script" value="my_script.lua"/> -->
+
+</globalevents>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mahmut" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="1444" head="110" body="105" legs="114" feet="86"/>
+<parameters>
+<parameter key="message_greet" value="Merhaba! Tekliflerime bakmaya ne dersin? Sadece {trade} yaz!"/>
+<parameter key="message_farewell" value="Bye bye!"/>
+<parameter key="message_idletimeout" value="Alacaksan al almayacaksan hadi sana bye bye!"/>
+<parameter key="message_walkaway" value="Gule Gule!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="japanese food,12213,1000;french fries,12214,1500;hot dog,12215,2000;cup of lemonade,12216,2000;brownie,12217,2500;cheeseburger,12218,3000;chocolate churry,12219,3000;caramel churry,12220,3000;vanilla churry,12221,3000;pizza,12222,3000;"/>
+<parameter key="shop_sellable" value="future orb,12194,2500;steel ore,12250,10000;twisted spoon,12193,10000;magma box,12271,10000;magma stone,12287,100000;mimic clothes,12166,100000;hypnosis,12206,25000;traces of ghost,12204,5000;ninetales tail,12180,50000;pot of lava,12152,5000;fire feather,12151,100000;flame orb,12229,10000;belt of champion,12195,50000;iron bracelet,12192,10000;fur,12181,5000;stone orb,12196,1000;onix tail,12205,10000;slowpoke tail,12197,80000;psyduck mug,12189,200000;ruby,12188,20000;squirtle hull,12158,30000;gyarados tail,12148,100000;crab claw,12207,25000;magnet,12198,20000;electric box,12176,10000;electabuzz tail,12169,100000;thunder feather,12150,100000;farfetchd stick,12199,50000;ice orb,12201,10000;locksmithes of shell,12203,10000;ice bra,12168,100000;ice feather,12149,100000;gosme,12202,25000;bug venom,12185,50000;bug antenna,12184,15000;mushroom,12183,10000;scythe,12167,100000;pinsir horn,12141,50000;venom flute,12210,75000;bulb,12154,7500;bag of pollem,12153,2500;blue vines,12341,25000;blue scarf,12190,150000;wool ball,12187,15000;comb,12179,35000;horn,12178,2500;raticate tail,12174,10000;bird beak,12172,25000;sandbag,12177,3500;microphone,12160,30000;nail,12157,2500;big tongue,12209,50000;lucky egg,12211,50000;dragon tooth,12159,50000;alligator skin,12236,50000;bag of poisonous dust,12240,25000;steel wing,12241,50000;green apple bites,12278,2500;dewgong tail,12268,25000;big claws,12269,25000;charizard wing,12270,50000;blastoise hull,12272,50000;red gyarados tail,12273,100000;crystal tail,12274,100000;dragonite wing,12275,70000;dragon tail,12276,50000;aerodactyl wing,12277,75000;leaf pendant,12279,15000;bone mask,12280,30000;big mushroom,12281,30000;venom pendant,12282,15000;water orb,12283,10000;pikachu tail,12284,25000;raichu tail,12285,25000;fire pendant,12286,15000;pot of fresh water,12288,10000;white rune,12289,15000;"/>
+</parameters>
+</npc>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Qwilfish" nameDescription="a shiny qwilfish" race="water" experience="204" speed="114" manacost="0">
+    <health now="40" max="40"/>
+  <look type="1926" head="10" body="30" legs="95" feet="113" corpse="13353"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Acid" interval="2664" chance="30" range="4"/>
+        <attack name="Bubbles" interval="2617" chance="30" range="3"/>
+        <attack name="Poison Sting" interval="2711" chance="30" range="1"/>
+        <attack name="Mud Shot" interval="2758" chance="30" range="3"/>
+        <attack name="Super Sonic" interval="4920" chance="20" range="3"/>
+        <attack name="Bubblebeam" interval="2946" chance="28" range="3"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="QWIIL!"/>
+<voice sentence="FIISH!"/>
+<voice sentence="QWILFISH!"/>
+  </voices>
+  <loot>
+        <item id="12161" chance="20000" countmax="50"/>  --Water Gem
+        <item id="12165" chance="15000" countmax="30"/>  --Bottle Of Poison
+        <item id="12170" chance="3000" count="1" countmax="1"/>  --Water Pendant
+        <item id="12282" chance="3000" count="1" countmax="1"/>  --Venom Pendant
+        <item id="12283" chance="500" count="1" countmax="1"/>  --Water Orb
+        <item id="12288" chance="750" count="1" countmax="1"/>  --Pot Of Fresh Water
+        <item id="12618" chance="5000" count="1" countmax="1"/>  --Boost Stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

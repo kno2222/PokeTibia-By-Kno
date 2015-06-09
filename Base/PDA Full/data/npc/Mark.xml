@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="510" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Ola caro cliente! Voce Quer Ver Minhas Ofertas? E Simples Digita {trade}!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="How Rude!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="Saffari Ball,12617,40000;Love Balls,12971,50000;Heavy Ball,2392,30000;Fast Ball,2393,20000;Moon Ball,2391,10000;Pokeball,2394,5000;Medicine,12349,5000;Full Restore,12343,300000;Revive,12344,100000;Hyper Potion,12345,20000;Ultra Potion,12346,15000;Small Potion,12347,2500;Great Potion,12348,5000;Vitamina Attack,8299,30000;Vitamina Vitality,8298,30000;Vitamina Agility,8303,40000;Vitamina Offense,8301,35000;Vitamina Defense,8302,35000"/>
+<parameter key="shop_sellable" value="Pot of frash water,12288,4500;apple bite,12173,1000;bag of pollem,12153,2000;bat wing,12182,2500;bottle of poison,12165,100;crab claw,12207,3000;feather,12200,1000;fire essense,12162,100;fur,12181,2110;leaves,12155,1200;nail,12157,1850;pot of lava,12152,2500;pot of moss bug,12171,2000;sandbag,12177,2200;screw,12164,100;seed,12163,100;small stone,12337,80;squirtle hull,12158,3120;straw,10604,90;water gem,12161,90;water pendant,12170,2500;" />
+</parameters>
+</npc>

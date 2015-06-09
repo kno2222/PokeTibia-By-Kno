@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+
+	<event type="joinchannel" name="ShowPokedex" event="script" value="newpokedex.lua"/>
+	<event type="leavechannel" name="ClosePokedex" event="script" value="newpokedex.lua"/>
+	<event type="advance" name="reward" event="script" value="premio.lua"/>
+   
+<event type="receivemail" name="Mail" event="script" value="mail.lua"/>
+    <event type="spawn" name="Spawn" event="script" value="spawn.lua"/>
+	
+    <event type="attack" name="atk" event="script" value="atk.lua"/>
+
+    
+     <event type="login" name="MutePlayer" event="script" value="Dota.lua"/>
+     <event type="login" name="PlayerLoginm" event="script" value="Log.lua"/>
+     
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+	<event type="death" name="Experience" event="script" value="pokeexp.lua"/>
+	
+	
+	<event type="think" name="PokemonIdle" event="script" value="poketele.lua"/>
+
+
+	<event type="statschange" name="GeneralConfiguration" event="script" value="exp.lua"/>
+	<event type="advance" name="EffectOnAdvance" event="script" value="levelup.lua"/>
+	<event type="target" name="WildAttack" event="script" value="playerattack.lua"/>
+	<event type="look" name="LookSystem" event="script" value="look.lua"/>
+	<event type="death" name="SummonDeath" event="script" value="goback.lua"/>
+	<event type="logout" name="PlayerLogout" event="script" value="goback.lua"/>
+
+
+    <event type="kill" name="task" event="script" value="task.lua"/>
+
+
+
+     
+
+	<event type="traderequest" name="T2" event="script" value="trade system.lua"/>
+
+	<event type="tradeaccept" name="T1" event="script" value="trade system.lua"/>
+
+
+     
+</creaturescripts>

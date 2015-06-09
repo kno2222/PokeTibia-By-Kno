@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Munchlax" nameDescription="a shiny munchlax" race="normal" experience="912" speed="107" manacost="0">
+    <health now="310" max="310"/>
+    <look type="1838" head="80" body="95" legs="95" feet="113" corpse="13283"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag hungerdelay="10"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="1"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        <flag hungerdelay="10"/>
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Scratch" interval="2758" chance="30" range="1"/>
+        <attack name="Bite" interval="2805" chance="29" range="1"/>
+        <attack name="Mega Punch" interval="3040" chance="28" range="1"/>
+        <attack name="Headbutt" interval="2946" chance="28" range="1"/>
+        <attack name="Body Slam" interval="2993" chance="28" range="1"/>
+        <attack name="Rest" interval="6330" chance="17" range="6"/>
+        <attack name="Hyper Beam" interval="3980" chance="22" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="MUNCHLAX!"/>
+    </voices>
+    <loot>
+        <item id="12173" chance="4000" count="1" countmax="1"/>
+        <item id="12214" chance="3000" countmax="4"/>
+        <item id="12222" chance="4000" count="1" countmax="1"/>
+        <item id="12218" chance="3000" countmax="2"/>
+        <item id="12215" chance="3000" count="1" countmax="1"/>
+        <item id="12618" chance="5000" count="1" countmax="1"/>  --Boost Stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

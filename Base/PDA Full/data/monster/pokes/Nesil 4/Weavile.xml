@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Weavile" nameDescription="a weavile" race="dark" experience="500" speed="218" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1767" head="41" body="57" legs="95" feet="113" corpse="13214"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+  <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-77" max="-99"/>
+        <attack name="Quick Attack" interval="2711" chance="30" range="1"/>
+        <attack name="Ice Shards" interval="2711" chance="30" range="3"/>
+        <attack name="Ice Beam" interval="2805" chance="29" range="6"/>
+        <attack name="Fury Cutter" interval="2946" chance="28" range="5"/>
+        <attack name="Icy Wind" interval="3040" chance="28" range="6"/>
+        <attack name="X-Scissor" interval="3202" chance="24" range="6"/>
+        <attack name="Agility" interval="5463" chance="19" range="6"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+<voice sentence="WEAVILE!"/>
+  </voices>
+  <loot>
+        <item id="12201" chance="5000" count="1" countmax="1"/>  --Ice Orb
+        <item id="1453" chance="3" count="1" countmax="1"/>  --TM02 - Dragon Claw
+        <item id="1462" chance="5" count="1" countmax="1"/>  --TM11 - Pursuit
+        <item id="1464" chance="4" count="1" countmax="1"/>  --TM13 - Ice Beam
+        <item id="1478" chance="5" count="1" countmax="1"/>  --TM27 - Dark Pulse
+        <item id="12401" chance="4" count="1" countmax="1"/>  --TM28 - X-Scissor
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

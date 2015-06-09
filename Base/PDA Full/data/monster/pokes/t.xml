@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Torre I" nameDescription="a Torre I" race="steel" experience="2000000" speed="0" manacost="0">
+    <health now="200000" max="200000"/>
+    <look typeex="1551" head="100" body="120" legs="87" feet="87" corpse="3128"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	<attacks>
+		<attack name="melee" interval="500" skill="75" attack="100"/>
+		<attack name="lifedrain" interval="2000" chance="10" length="7" spread="3" min="0" max="-350">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="speed" interval="3000" chance="11" length="10" spread="10" speedchange="-650">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="18" target="1" radius="4" min="-120" max="-280">
+			<attribute key="areaEffect" value="icearea"/>
+			<attribute key="shootEffect" value="smallice"/>
+		</attack>
+		<attack name="ice" interval="800" chance="22" radius="15" target="0" min="-200" max="-460">
+			<attribute key="areaEffect" value="icetornado"/>
+		</attack>
+		<attack name="Fire" interval="800" chance="22" radius="15" target="0" min="-200" max="-460">
+			<attribute key="areaEffect" value="CAKE"/>
+		</attack>
+		<attack name="ice" interval="800" chance="22" radius="15" target="0" min="-200" max="-460">
+			<attribute key="areaEffect" value="MORTAREA"/>
+		</attack>
+	
+
+    <loot>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+      <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    </loot>
+	<voices interval="500" chance="10">
+		<voice sentence="Se me destruir eu abrirei um portal Para outra faze .O portal Ficara 5 min aberto" yell="1"/>
+	</voices>
+<script>
+</script>
+  </monster>

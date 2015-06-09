@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gliscor" nameDescription="a gliscor" race="flying" experience="1000" speed="185" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1599" head="52" body="67" legs="95" feet="113" corpse="13039"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+  <attacks>
+	<attack name="melee" interval="2000" chance="100" range="1" min="-62" max="-91"/>
+	<attack name="Quick Attack" interval="3040" chance="28" range="1"/>
+	<attack name="Sand Attack" interval="2946" chance="28" range="4"/>
+	<attack name="Whirlwind" interval="3745" chance="24" range="4"/>
+	<attack name="Fire Fang" interval="3510" chance="25" range="3"/>
+	<attack name="Wing Attack" interval="3745" chance="24" range="1"/>
+	<attack name="Earthshock" interval="3510" chance="25" range="3"/>
+	<attack name="Mud Shot" interval="2946" chance="28" range="3"/>
+  </attacks>
+  <defenses armor="0" defense="0">
+  </defenses>
+  <voices interval="5000" chance="10">
+	<voice sentence="GLIIS!"/>
+<voice sentence="COORRR!"/>
+<voice sentence="GLISCOR!"/>
+  </voices>
+  <loot>
+        <item id="12337" chance="7000" countmax="30"/>  --Small Stone
+        <item id="12175" chance="4000" count="1" countmax="1"/>  --Tooth
+        <item id="12177" chance="4000" count="1" countmax="1"/>  --Sand Bag
+        <item id="12182" chance="2000" count="1" countmax="1"/>  --Bat Wing
+        <item id="1457" chance="5" count="1" countmax="1"/>  --TM06 - Toxic
+        <item id="12410" chance="4" count="1" countmax="1"/>  --TM37 - Sand Tomb
+  </loot>
+
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

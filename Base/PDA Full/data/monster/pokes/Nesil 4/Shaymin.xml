@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shaymin" nameDescription="a shaymin" race="grass" experience="0" speed="200" manacost="0">
+  <health now="40" max="40"/>
+  <look type="1892" head="90" body="100" legs="95" feet="113" corpse="13319"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+    <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Razor Leaf" interval="2758" chance="30" range="4"/>
+        <attack name="Vine Whip" interval="2993" chance="28" range="6"/>
+        <attack name="Headbutt" interval="2711" chance="30" range="1"/>
+        <attack name="Leech Seed" interval="3087" chance="28" range="5"/>
+        <attack name="Bullet Seed" interval="3557" chance="25" range="4"/>
+        <attack name="Solar Beam" interval="4779" chance="17" range="6"/>
+        <attack name="Sleep Powder" interval="5766" chance="18" range="6"/>
+        <attack name="Stun Spore" interval="4497" chance="21" range="6"/>
+        <attack name="Poison Powder" interval="5202" chance="19" range="6"/>
+        <attack name="Leaf Storm" interval="4826" chance="17" range="6"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+<voices interval="5000" chance="10">
+	<voice sentence="SHAAAYY!"/>
+<voice sentence="MINNNN!"/>
+<voice sentence="SHAYMIN!"/>
+  </voices>
+  <loot>
+        <item id="12163" chance="30000" countmax="100"/>  --Seed
+        <item id="12194" chance="10000" count="1" countmax="1"/>  --Future Orb
+        <item id="12155" chance="7000" count="1" countmax="1"/>  --Leaves
+        <item id="12279" chance="1500" count="1" countmax="1"/>  --Leaf Pendant
+        <item id="11441" chance="100" count="1" countmax="1"/>  --Leaf Stone
+        <item id="1460" chance="7" count="1" countmax="1"/>  --TM09 - Bullet Seed
+        <item id="1470" chance="7" count="1" countmax="1"/>  --TM19 - Giga Drain
+        <item id="1471" chance="7" count="1" countmax="1"/>  --TM20 - Petal Dance
+        <item id="1473" chance="7" count="1" countmax="1"/>  --TM22 - Leaf Blade
+        <item id="12430" chance="7" count="1" countmax="1"/>  --TM49 - Solar Beam
+        <item id="12406" chance="1" count="1" countmax="1"/>  --TM33 - Restore
+        <item id="12414" chance="1" count="1" countmax="1"/>  --TM41 - Confusion
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

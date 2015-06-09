@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Lucario  " speed="0">
+
+	<health now="3950" max="3950"/>
+
+	<look type="516" head="93" body="114" legs="114" feet="114"/>
+
+	<parameters>
+
+
+	</parameters>
+
+</npc>

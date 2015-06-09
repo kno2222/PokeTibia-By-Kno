@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Change Coins" script="coin.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="510" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+		<parameter key="message_greet" value="Eae |PLAYERNAME|.Eu Troco Seus Cassino Coins Por Box Surpresa! Voce Precisa Ter pelo menos 1 gold e o Cassino Coins Necessario. Digita {trade}!" />
+	</parameters>
+</npc>

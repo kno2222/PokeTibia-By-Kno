@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Quilava" nameDescription="a shiny quilava" race="fire" experience="628" speed="137" manacost="0">
+    <health now="90" max="90"/>
+  <look type="1572" head="35" body="50" legs="95" feet="113" corpse="12985"/>
+	<targetchange interval="10000" chance="0"/>
+<strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+   <flag hungerdelay="15"/>
+</flags>
+  <attacks>
+        <attack name="melee" interval="2000" chance="100" range="1" min="-50" max="-100"/>
+        <attack name="Scratch" interval="2570" chance="31" range="1"/>
+        <attack name="Ember" interval="2664" chance="30" range="4"/>
+        <attack name="Fireball" interval="3040" chance="28" range="4"/>
+		<attack name="Flamethrower" interval="3040" chance="28" range="4"/>
+        <attack name="Flame Wheel" interval="2852" chance="29" range="4"/>
+		<attack name="Raging Blast" interval="3446" chance="28" range="6"/>
+        <attack name="Fire Blast" interval="3246" chance="28" range="6"/>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+  <voices interval="5000" chance="10">
+	<voice sentence="QUI!"/>
+<voice sentence="LAVA!"/>
+    <voice sentence="QUILAVA!"/>
+  </voices>
+  <loot>
+        <item id="12162" chance="25000" countmax="50"/>  --Essence Of Fire
+        <item id="12152" chance="4500" count="1" countmax="1"/>  --Pot Of Lava
+        <item id="12229" chance="300" count="1" countmax="1"/>  --Flame Orb
+        <item id="12286" chance="700" count="1" countmax="1"/>  --Fire Pendant
+        <item id="12271" chance="1000" count="1" countmax="1"/>  --Magma Box
+        <item id="12287" chance="100" count="1" countmax="1"/>  --Magma Stone
+        <item id="12618" chance="6000" count="1" countmax="1"/>  --Boost Stone
+    </loot>
+    <script>
+        <event name="Spawn"/>
+    </script>
+</monster>

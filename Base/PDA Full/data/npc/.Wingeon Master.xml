@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<npc name="Wingeon GrandMaster" script=".wingeon master.lua" walkinterval="0" floorchange="0" access="5" level="1" maglevel="1">
+<health now="150" max="150"/>
+<look type="1424" head="114" body="119" legs="114" feet="114" corpse="2212"/>
+
+<parameters>
+	<parameter key="message_greet" value="Ola |PLAYERNAME|, Quer entrar No Meu {clan}? Ou Quer Transformar Algun Pokemon em {shiny}? Ou Voce Deseja Sair do Clan {leave}? Para Pular de Rank Digita !clan."/>
+</parameters>
+</npc>

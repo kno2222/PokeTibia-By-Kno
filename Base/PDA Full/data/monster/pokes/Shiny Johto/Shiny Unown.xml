@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shiny Unown" nameDescription="a shiny unown" race="ghost" experience="160" speed="117" manacost="0">
+    <health now="40" max="40"/>
+    <look type="1878" head="15" body="35" legs="95" feet="113" corpse="13312"/>
+    <targetchange interval="10000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+        <flag summonable="1"/>
+        <flag attackable="1"/>
+        <flag hostile="1"/>
+        <flag illusionable="1"/>
+        <flag convinceable="1"/>
+        <flag pushable="1"/>
+        <flag canpushitems="0"/>
+        <flag canpushcreatures="0"/>
+        <flag targetdistance="2"/>
+        <flag staticattack="97"/>
+        <flag runonhealth="0"/>
+        <flag hungerdelay="24"/>
+    </flags>
+    <attacks>
+        <attack name="physical" interval="2000" chance="100" range="3" min="-50" max="-100">
+            <attribute key="shootEffect" value="eartharrow"/>
+        </attack>
+    </attacks>
+    <defenses armor="0" defense="0"/>
+    <voices interval="5000" chance="10">
+        <voice sentence="UNOWN!"/>
+    </voices>
+    <loot>
+        <item id="12204" chance="5000" count="1" countmax="1"/>  --Traces Of Ghost
+        <item id="12618" chance="4000" count="1" countmax="1"/>  --Boost Stone
+  </loot>
+<script>
+<event name="Spawn"/>
+</script>
+</monster>

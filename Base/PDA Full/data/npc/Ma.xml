@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Items Casa" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="510" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Ola caro cliente! Voce Quer Ver Minhas Ofertas? E Simples Digita {trade}!"/>
+<parameter key="message_farewell" value="Good bye!"/>
+<parameter key="message_idletimeout" value="Good bye!"/>
+<parameter key="message_walkaway" value="How Rude!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="coisa,3929,5000;coisa dois,3930,5000;coisa tres,3931,5000;coisa quatro,3932,5000;Cortina,11520,7500;Sofa Preto,3901,10000;Sofa Pink,3902,10000;Sofa Azul,3903,10000;Sofa Branco,3904,10000;Cadeira Vermelho,3905,1000;Cadeira Azul,3907,1000;Tocha,3908,1200;Mesa Madeira,3909,5000;Mesa Branca,3910,5000;Mesa Vidro,3911,6000;Mesa Pink,3912,5000;Mesa Vermelho,3913,5000;Mesa Tusk,3914,5000;Nootebook,3915,6000;Computador,3916,10000;Game Boy,3917,8000;Super Nitendo,3918,10000;Play dois,3919,12000;Fogao Preto,3920,15000;Fogao Branco,3921,14000;Televisao,3922,25000;Tv Digital,3923,30000;Tv antigo,3924,10000;Espada Samurai,3925,50000;Paino,3926,15000;Cadeira balancante,3926,1000;Vaso flor,3927,500;Mesa Madeira big,3928,5000"/>
+</parameters>
+</npc>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Fatih" script="default.lua" walkinterval="350000" floorchange="0" speed="0">
+<health now="150" max="150"/>
+<look type="510" head="91" body="114" legs="86" feet="0"/>
+<parameters>
+<parameter key="message_greet" value="Hosgeldin abi! Cantalarimiz 30 HD ama sen iyi birisine benziyorsun, senin icin 25 HD olur! Hemen almak icin {trade} yaz!"/>
+<parameter key="message_farewell" value="Bye Bye!"/>
+<parameter key="message_idletimeout" value="Bye bye!"/>
+<parameter key="message_walkaway" value="Insan bi bye der!"/>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="red pokemon bag,12325,250000;white pokemon bag,12326,250000;yellow pokemon bag,12327,250000;green pokemon bag,12328,250000;blue pokemon bag,12329,250000;pokemon bag,12332,200000"/>
+<parameter key="shop_sellable" value="essence of fire,12162,200;small stone,12337,100;pot of moss bug,12171,2000;screw,12164,100;straw,2694,200;water gems,12161,100;remains of magikarp,12334,500;teeth,12175,1000;bottle of poison,12165,100;water pendant,12170,800;feather,12200,500;seed,12163,100;pair of leaves,12155,500;apple bite,12173,500;bat wing,12182,1500;"/>
+</parameters>
+</npc>

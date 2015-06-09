@@ -1,0 +1,13 @@
+           local positions = {
+  [1] = {{x = 964, y = 953, z = 7}}, -- venore red
+   -- venore green
+  }
+
+local pos = positions[1]
+function onThink(cid, interval, lastExecution)
+local num_de_pos = 1
+for i = 1,num_de_pos do  
+doSendAnimatedText(pos[i],"CASAS",math.random(1,256))
+end
+return true
+end

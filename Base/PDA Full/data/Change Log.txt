@@ -1,0 +1,9 @@
+Change Log v2.9.1
+
+Mudanças serv:
+	-Dei um jeito no sistema de uniques... soh que agora se o player tiver off o item vai simplismente sumir... nao tem jeito de arrumar isso;
+		-No caso, se o player esquecer a pb na boost machine e alguem achar, e o player dono tiver off a ball vai sumir... no resto o sistema deve estar funcionando normalmente;
+	-arrumei os erros no console q estavam dando com quem tinha pego os patchs e nao a versao full;
+	-Arrumei uns problemas com as funçoes ehMonstro e stopNow;
+
+	Eh soh isso... agora eu parei mesmo... e parem de mandar PM pq n responderei mais nenhum!

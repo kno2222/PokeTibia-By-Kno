@@ -1,0 +1,56 @@
+*********************** Pokemon Online 2015 By: NextBR *****************************
+Informaçoes:
+[+] EXP do Player: 10
+[+] EXP do Pokemon: 15
+[+] Pokemon com Level: Max 300
+[+] Bonus Level System: Quando o Pokemon Upa aparece +1 na ball indicando que o player upou 1 level do Pokemon e assim vai...
+[+] Pokemon com Boost:
+-BoostFREE: +50
+-BoostVIP: +80 +(Bonus Boost) Ou seja o Boost stone VIP nao almenta so o Boost e tambem da + Bonus de Boost que o Normal
+
+[+] Catch System Inovado:
+-Catch Channel (Voce ve todos os Catch do Server Pelo um Canal)
+-Catch Skill (no Client Official foram editadas os Nomes dos Skills e um deles é o "Catching" que quanto maior o Seu Catch Maior a chance de Captura)
+-RATE Catch de Pokemon Shiny (Arrumado antes com uma Pokeball voce ja capturava qualquer Shiny, Vale ressautar que quanto o menor level do pokemon e mais facil o Catch o Balanceamento agora esta Perfeito)
+-RATE DE TODOS OS CATCH:
+
+[+] OBS: Eu recomendo voce deixar o Catch Baixo pois o Catch do PDA se voce almentar muito um exemplo Pokeball rate: 5000 ao dar catch pode travar o Servidor por Falta de Memoria no Seu Host Portanto Recomendo no max Rate: 1000x
+
+-Pokeball: 10
+-Greatball: 20
+-Superball: 30
+-ultraball: 40
+-Saffariball: 50
+-Loveball: 60
+-Masterball: 500
+
+[+] Agora se Somar com o Catch Por Skill:
+
+Catching Skill: 0 a 50 = RATE 25
+Catching Skill: 51 a 100 = RATE 50
+Catching Skill: 101 a 150 = RATE 75
+Catching Skill: 151 a 9999 = RATE 100
+
+[+] Novo Balanceamento nos Pokemons: ok (data/lib/Configuration.lua)
+[+] Adicionado + 20 Teleportes de Pokemon Totalizando 120 HUNTS + 5 QUESTS
+[+] Adiconado Teleport para : CASSINO E CLAN
+[+] Novas Informaçoes no Server (Para melhorar o Jogo)
+[+] Clan System Editado Ficou mais TOP (mais informaçoes !clan e !Rankclan)
+[+] Tirado um item do npc Casa que trapa as portas da House
+[+] Editado o Mapa
+[+] Respaw de Shiny (Almentado) Agora esta 1% antes estava 0.3%
+- Podem ficar Sussegados que o catch de Shiny estao Balanceados (Bem Jogavel)
+
+[+] Espero que Gostem da nova Atualizaçao 
+
+
+
+
+
+
+
+
+
+
+
+
